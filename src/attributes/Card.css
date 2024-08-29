@@ -1,0 +1,16 @@
+.card-con{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.card{
+    text-align: end;
+    margin: 20px auto;
+    padding: 1rem;
+    border-radius: 13px;
+    color: white;
+}
+
+.card-con i{
+    font-size: 2rem;
+}

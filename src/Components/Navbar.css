@@ -1,0 +1,45 @@
+nav {
+    min-height: 100vh;
+    background-color: rgb(37, 37, 112);
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+nav .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+nav .logo i,
+nav .lower-logo i {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+nav .logo i:hover,
+nav .lower-logo i:hover {
+    transform: scale(1.1);
+}
+
+nav .logo p {
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+nav .lower-logo {
+    display: flex;
+    gap: 20px;
+}
+
+.image img{
+    padding: 1rem;
+    width: 100px;
+}
